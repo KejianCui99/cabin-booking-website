@@ -1,3 +1,26 @@
+# The Wild Oasis - Cabin Booking Website
+
+**The Wild Oasis** is a cabin booking platform built with [Next.js](https://nextjs.org/), offering a seamless reservation experience. Users can log in via their Google account to book available cabins, with all reservation data securely stored and managed through [Supabase](https://supabase.com/).
+
+## Key Features:
+
+- **Next.js Framework**: Utilized for its server-side rendering (SSR) and static site generation (SSG) capabilities, ensuring fast page loads and an optimal user experience.
+- **Google OAuth Authentication**: Provides a simple and secure login mechanism via Google, enabling users to authenticate and manage their bookings.
+- **Supabase Integration**: Handles real-time data storage and user management, offering an efficient backend solution for all reservations and user data.
+- **API Routes**: Custom Next.js API routes handle interactions between the frontend and the database, enabling secure and efficient data transactions.
+- **React & Tailwind CSS**: The frontend is designed with React components and styled using Tailwind CSS, ensuring a responsive and visually appealing user interface.
+
+## Tech Stack:
+
+- **Frontend**: Next.js, React, Tailwind CSS
+- **Backend**: Supabase (PostgreSQL for data storage, Authentication for Google OAuth)
+- **Authentication**: Google OAuth via Supabase
+- **Hosting**: Vercel (leveraging Next.js's optimized deployment options)
+
+This project exemplifies the integration of modern web technologies to create a fast, secure, and intuitive user experience for cabin bookings.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
