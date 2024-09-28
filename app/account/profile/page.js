@@ -21,6 +21,7 @@ export default async function Page() {
         Providing the following information will make your check-in process
         faster and smoother. See you soon!
       </p>
+
       <UpdateProfileForm guest={guest}>
         <SelectCountry
           name="nationality"

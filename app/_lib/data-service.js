@@ -32,7 +32,6 @@ export async function getCabinPrice(id) {
 
   if (error) {
     console.error(error);
-    notFound();
   }
 
   return data;
@@ -133,7 +132,7 @@ export async function getBookedDatesByCabinId(cabinId) {
 export async function getSettings() {
   const { data, error } = await supabase.from("settings").select("*").single();
 
-  await new Promise((res) => setTimeout(res, 1000));
+  // await new Promise((res) => setTimeout(res, 5000));
 
   if (error) {
     console.error(error);
