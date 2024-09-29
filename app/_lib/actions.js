@@ -104,11 +104,12 @@ export async function updateBooking(formData) {
   // 5) Error handling
   if (error) throw new Error("Booking could not be updated");
 
-  // 6) Revalidation
+  // 6) Revalidation both edit and reservations path
+  // Revalidation should happen at the end of a server action.
   revalidatePath(`/account/reservations/edit/${bookingId}`);
   revalidatePath("/account/reservations");
 
-  // 7) Redirecting
+  // 7) Redirecting after revalidation.
   redirect("/account/reservations");
 }
 
