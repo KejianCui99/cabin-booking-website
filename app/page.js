@@ -1,15 +1,26 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-
-import bg from "@/public/bg.png";
+import { useEffect, useState } from "react";
 
 export default function Page() {
+  // Array of image names from the public folder
+  const imageNames = ["bg-1.png", "bg-2.png", "bg-3.png", "bg-4.png"]; // Add all your image names here
+  const [randomImage, setRandomImage] = useState("");
+
+  useEffect(() => {
+    // Select a random image on component mount
+    const randomIndex = Math.floor(Math.random() * imageNames.length);
+    setRandomImage(imageNames[randomIndex]);
+  }, []); // The empty dependency array ensures this runs only on mount
+
   return (
     <main className="mt-24">
       <Image
-        src={bg}
+        src={`/${randomImage}`} // Randomly selected image
         fill
-        placeholder="blur"
+        //placeholder="blur"
         quality={100}
         className="object-cover object-top"
         alt="Mountains and forests with two cabins"
