@@ -16,27 +16,31 @@ export default async function Page() {
     <div className="grid grid-cols-5 gap-x-24 gap-y-32 text-lg items-center">
       <div className="col-span-3">
         <h1 className="text-4xl mb-10 text-accent-400 font-medium">
-          Welcome to The Wild Oasis
+          Welcome to PineNest
         </h1>
 
         <div className="space-y-8">
           <p>
-            Where nature&apos;s beauty and comfortable living blend seamlessly.
-            Hidden away in the heart of the Italian Dolomites, this is your
-            paradise away from home. But it&apos;s not just about the luxury
-            cabins. It&apos;s about the experience of reconnecting with nature
-            and enjoying simple pleasures with family.
+            Where the calm of the Australian bush and comfortable living blend
+            seamlessly. Tucked into the forested hills of the Dandenong Ranges,
+            just an hour from Melbourne, this is your escape from the rush of the
+            city. But it&apos;s not just about the luxury cabins. It&apos;s about
+            waking among towering mountain ash, breathing the cool,
+            eucalyptus-scented air, and rediscovering simple pleasures with the
+            people you love.
           </p>
           <p>
             Our {cabins.length} luxury cabins provide a cozy base, but the real
-            freedom and peace you&apos;ll find in the surrounding mountains.
-            Wander through lush forests, breathe in the fresh air, and watch the
-            stars twinkle above from the warmth of a campfire or your hot tub.
+            magic lies in the landscape that surrounds them. Wander misty fern
+            gullies, listen for the lyrebird and the laugh of a kookaburra, and
+            watch the southern stars come out over the ranges from the warmth of
+            a campfire or your private hot tub.
           </p>
           <p>
-            This is where memorable moments are made, surrounded by
-            nature&apos;s splendor. It&apos;s a place to slow down, relax, and
-            feel the joy of being together in a beautiful setting.
+            This is where memorable moments are made, cradled by some of the
+            oldest forest in Australia. It&apos;s a place to slow down, breathe
+            deep, and feel the quiet joy of being together in a truly beautiful
+            corner of Victoria.
           </p>
         </div>
       </div>
@@ -55,7 +59,7 @@ export default async function Page() {
           src="/about-2.jpg"
           fill
           className="object-cover"
-          alt="Family that manages The Wild Oasis"
+          alt="Family that manages PineNest"
         />
       </div>
 
@@ -66,18 +70,19 @@ export default async function Page() {
 
         <div className="space-y-8">
           <p>
-            Since 1962, The Wild Oasis has been a cherished family-run retreat.
-            Started by our grandparents, this haven has been nurtured with love
-            and care, passing down through our family as a testament to our
-            dedication to creating a warm, welcoming environment.
+            Since 1962, PineNest has been a cherished family-run retreat.
+            Started by our grandparents on a quiet patch of land in the ranges,
+            this haven has been nurtured with love and care, passing down
+            through our family as a testament to our dedication to creating a
+            warm, welcoming environment.
           </p>
           <p>
-            Over the years, we&apos;ve maintained the essence of The Wild Oasis,
-            blending the timeless beauty of the mountains with the personal
+            Over the years, we&apos;ve kept the heart of PineNest unchanged,
+            blending the timeless beauty of the Australian bush with the personal
             touch only a family business can offer. Here, you&apos;re not just a
-            guest; you&apos;re part of our extended family. So join us at The
-            Wild Oasis soon, where tradition meets tranquility, and every visit
-            is like coming home.
+            guest; you&apos;re part of our extended family. So come join us at
+            PineNest soon, where the forest meets genuine hospitality, and every
+            visit is like coming home.
           </p>
 
           <div>

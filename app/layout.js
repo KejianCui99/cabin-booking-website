@@ -6,13 +6,13 @@ import Header from "./_components/Header";
 import { ReservationProvider } from "./_components/ReservationContext";
 
 export const metadata = {
-  //title: "The Wild Oasis",
+  //title: "PineNest",
   title: {
-    template: "%s / The Wild Oasis",
-    default: "Welcome / The Wild Oasis",
+    template: "%s / PineNest",
+    default: "Welcome / PineNest",
   },
   description:
-    "Luxurious cabin hotel, located in the heart of the Italian Dolomites, surrounded by beautiful mountains",
+    "Luxurious cabin hotel nestled in the forested hills of the Dandenong Ranges, just outside Melbourne, Australia, surrounded by towering mountain ash and misty fern gullies",
 };
 
 export default function RootLayout({ children }) {
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
             <ReservationProvider>{children}</ReservationProvider>
           </main>
         </div>
-        <footer>Copyright by the Wild Oasis</footer>
+        <footer>Copyright by PineNest</footer>
       </body>
     </html>
   );
